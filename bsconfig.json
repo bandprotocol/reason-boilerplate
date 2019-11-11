@@ -1,0 +1,31 @@
+{
+  "name": "reason-react-examples",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "reason-apollo-hooks",
+    "reason-apollo",
+    "bs-css",
+    "bs-webapi",
+    "rationale"
+  ],
+  "refmt": 3,
+  "ppx-flags": [
+    "graphql_ppx/ppx"
+  ]
+}
